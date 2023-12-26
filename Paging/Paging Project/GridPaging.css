@@ -1,0 +1,28 @@
+﻿
+
+.gridview-pager {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.gridview-pager a, .gridview-pager span {
+    display: inline-block;
+    padding: 3px 9px;
+    margin: 0 1px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #425ad1;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+}
+
+.gridview-pager a:hover {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.gridview-pager .disabled, .gridview-pager .disabled:hover {
+    color: #868e96;
+    cursor: not-allowed;
+    background-color: #fff;
+}
